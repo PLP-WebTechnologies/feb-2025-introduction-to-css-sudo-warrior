@@ -1,0 +1,75 @@
+/* --- General Styles & Typography --- */
+
+/* Element Selector: Styling the body */
+body {
+    margin: 0; /* Remove default browser margin */
+    padding: 0; /* Remove default browser padding */
+    font-family: 'Arial', sans-serif; /* Specify primary font and a fallback */
+    background-color: #f4f4f4; /* Light grey background for the page */
+    color: #333; /* Dark grey text color for readability */
+    line-height: 1.6; /* Improve text spacing */
+}
+
+/* --- Layout Container --- */
+
+/* Class Selector: Styling the main container */
+.container {
+    width: 80%; /* Limit the width of the content */
+    max-width: 960px; /* Set a maximum width */
+    margin: 20px auto; /* Center the container horizontally with top/bottom margin */
+    background-color: #ffffff; /* White background for the content area */
+    padding: 25px; /* Internal spacing inside the container */
+    border: 1px solid #cccccc; /* Subtle border around the container */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* --- Headings and Paragraphs --- */
+
+/* ID Selector: Styling the main heading uniquely */
+#main-heading {
+    color: #0056b3; /* A distinct blue color */
+    text-align: center; /* Center the heading text */
+    font-family: 'Georgia', serif; /* Use a different font (serif) for the main heading */
+    border-bottom: 2px solid #0056b3; /* Underline effect */
+    padding-bottom: 10px; /* Space between text and underline */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+h2 {
+    color: #1a73e8; /* A lighter blue for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+    border-bottom: 1px dashed #dddddd; /* Dashed line below */
+    padding-bottom: 5px;
+}
+
+/* Class Selector: Styling specific paragraphs */
+.content-paragraph {
+    margin-bottom: 15px; /* Space below paragraphs */
+    color: #555; /* Slightly lighter text color than default */
+}
+
+/* --- Image Styling --- */
+
+/* Class Selector: Styling the image */
+.styled-image {
+    display: block; /* Allows margin auto centering */
+    max-width: 100%; /* Make image responsive, not exceeding its container width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image horizontally with top/bottom margin */
+    border: 4px solid #1a73e8; /* Blue border around the image */
+    padding: 5px; /* Space between the image and its border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #e9f2ff; /* Light blue background behind the padding */
+}
+
+/* --- Footer Styling --- */
+
+/* Element Selectors (combined): Styling the paragraph inside the footer */
+footer p {
+    text-align: center;
+    margin-top: 40px; /* Space above the footer text */
+    padding-top: 20px; /* Space inside the footer, above the text */
+    border-top: 1px solid #eeeeee; /* Separator line */
+    font-size: 0.9em; /* Slightly smaller text */
+    color: #777; /* Grey color for footer text */
+}
