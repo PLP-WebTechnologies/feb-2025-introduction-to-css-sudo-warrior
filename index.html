@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS Styling</title>
+    <!-- Link the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Element styled using an ID -->
+            <h1 id="main-heading">Welcome to CSS Styling</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>About This Page</h2>
+                <!-- Elements styled using a Class -->
+                <p class="content-paragraph">
+                    This page demonstrates basic CSS styling techniques. We are using an external stylesheet
+                    called <code>style.css</code> to apply visual changes to this HTML document.
+                </p>
+                <p class="content-paragraph special-paragraph">
+                    Notice how different elements like headings, paragraphs, and images can be targeted
+                    using element selectors, class selectors, and ID selectors. We've also adjusted colors,
+                    fonts, margins, padding, and borders.
+                </p>
+            </section>
+
+            <section>
+                <h2>Styled Image</h2>
+                <!-- Image styled using a Class -->
+                <img src="https://via.placeholder.com/400x200.png?text=Styled+Image" alt="Placeholder image demonstrating styling" class="styled-image">
+                <p>The image above has specific styles applied, including a border, padding, and rounded corners.</p>
+            </section>
+        </main>
+
+        <footer>
+            <!-- Element styled using an Element Selector -->
+            <p>© 2025 sudo warrior / GitHub Classroom Example</p>
+        </footer>
+    </div> <!-- end container -->
+
+</body>
+</html>
